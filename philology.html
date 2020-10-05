@@ -8,6 +8,13 @@
       <link rel="stylesheet" href="css/style.css">
       <link rel="stylesheet" href="css/fontawesome.min.css">
       <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+      <script src="js/jquery-3.3.1.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script> 
+         $(function(){
+           $("#footer").load("enq_sub_footer.html"); 
+         });
+      </script> 
    </head>
    
    <body>
@@ -158,86 +165,8 @@
                   </div>
          </div>
       </div>
-     
-     <div id="contact" class="hiw_section layout_padding" style="background: #eeefef;">
-        <div class="container">
-           <div class="row">
-              <div class="col-md-7">
-                 <h3>Online Enquiry</h3>
-              </div>
-              <div class="col-md-5">
-              </div>
-           </div>
-           <div class="row">
-              <div class="col-md-7">
-                 <div class="contact-form">
-                    <form>
-                       <input type="text" placeholder="Name" />
-                       <input type="email" placeholder="Email" />
-                       <input type="text" placeholder="Phone Number" />
-                       <input type="text" placeholder="Type of Service">
-                       <textarea placeholder="Message"></textarea>
-                       <input type="submit" value="SEND">
-                    </form>
-                 </div>
-              </div>
-              <div class="col-md-5 text_align_center">
-                 <img class="img-responsive" src="imgs/man_cartoon.png" alt="#" />
-              </div>
-           </div>
-        </div>
-     </div>
-     <div class="subcribe">
-        <div class="container">
-           <div class="row">
-              <div class="col-md-4 col-sm-6">
-                 <h3>Newsletter</h3>
-                 <p>Join our Newsletter to get updates on study opportunities  in Poland</p>
-              </div>
-              <div class="col-md-8 col-sm-6">
-                 <form>
-                    <input type="email" name="email" placeholder="Enter Your Email Address" />
-                    <button>Subscribe</button>
-                 </form>
-              </div>
-           </div>
-        </div>
-     </div>
-     <footer>
-        <div class="container">
-           <div class="row">
-              <div class="col-lg-4 col-md-6 col-12">
-                 <div class="footer_blog_section">
-                    <img src="imgs/logo.png" alt="./index.html" />
-                    <p style="margin-top: 5px;">We focus on providing the best support for students planning to study in
-                       in Poland.</p>
-                 </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-12">
-                 <div class="item">
-                    <h4 class="text-uppercase">Contact Info</h4>
-                    <p><strong>Email Address:</strong></p>
-                    <p><img src="imgs/phone_icon.png" alt="#" />info@eduthrive.co.zw</p>
-                    <p><strong>Whatsapp number:</strong></p>
-                    <p><img src="imgs/location.png" alt="#" />+48 797 916 840</p>
-                 </div>
-              </div>
-              <div class="col-lg-3 col-md-6 col-12">
-                 <div class="item">
-                    <h4 class="text-uppercase">Social Media</h4>
-                    <ul>
-                       <li><a href="#">Facebook</a></li>
-                       <li><a href="#">Twitter</a></li>
-                       <li><a href="#">Instagram</a></li>
-                    </ul>
-                 </div>
-              </div>
-           </div>
-        </div>
-        <div class="copyright text-center">
-           <p>Copyright 2020 Design by <a href="www.urbanwire.co.zw">Urbanwire</a></p>
-        </div>
-     </footer>
+      
+      <div id="footer"></div>
      <script src="js/jquery-3.3.1.min.js"></script>
      <script src="js/bootstrap.min.js"></script>
   </body>
