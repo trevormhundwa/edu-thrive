@@ -1,4 +1,19 @@
 
+        
+   <script src="js/jquery-3.3.1.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>  
+   <script>
+      function myFunction() {
+  // Get the snackbar DIV
+  var x = document.getElementById("snackbar");
+
+  // Add the "show" class to DIV
+  x.className = "show";
+
+  // After 3 seconds, remove the show class from DIV
+  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 10000);
+}
+   </script>
    <div id="contact" class="hiw_section layout_padding" style="background: #eeefef;">
        <div class="container">
           <div class="row">
@@ -16,7 +31,9 @@
                       <input type="email" placeholder="Email" name="email" />
                       <input type="text" placeholder="Programme" name="programme">
                       <textarea placeholder="Message" name="message"></textarea>
-                      <input type="submit" value="SEND">
+                      <input name = "submit" type="submit" value="SEND"  onclick="myFunction()"/>
+                      <!-- The actual snackbar -->
+                      <div id="snackbar">Message Sent</div>
                    </form>
                 </div>
              </div>
@@ -28,22 +45,7 @@
     </div>
 
 
- <div class="subcribe">
-    <div class="container">
-       <div class="row">
-          <div class="col-md-4 col-sm-6">
-             <h3>Newsletter</h3>
-             <p>Join our Newsletter to get updates on study opportunities in Poland</p>
-          </div>
-          <div class="col-md-8 col-sm-6">
-             <form>
-                <input type="email" name="email" placeholder="Enter Your Email Address" />
-                <button>Subscribe</button>
-             </form>
-          </div>
-       </div>
-    </div>
- </div>
+
  <footer>
     <div class="container">
        <div class="row">
