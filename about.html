@@ -9,9 +9,15 @@
    <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="css/fontawesome.min.css">
    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
-   <link rel="icon" href="favicon.png" sizes="16x16" type="image/png">
+   <link rel="icon" href="favicon.png" sizes="16x16" type="image/png">           
    <script src="js/jquery-3.3.1.min.js"></script>
-   <script src="js/bootstrap.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>   
+   <script> 
+      $(function(){
+        $("#footer").load("enq_sub_footer.html"); 
+        $("#nav_bar").load("navbar.html"); 
+      });
+   </script> 
 </head>
 
 <body>
@@ -70,15 +76,6 @@
       </div>
    </div>
    <div id="footer"></div>
-           
-   <script src="js/jquery-3.3.1.min.js"></script>
-   <script src="js/bootstrap.min.js"></script>   
-   <script> 
-      $(function(){
-        $("#footer").load("enq_sub_footer.html"); 
-        $("#nav_bar").load("navbar.html"); 
-      });
-   </script> 
    
 </body>
 

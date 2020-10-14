@@ -9,9 +9,15 @@
    <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="css/fontawesome.min.css">
    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
-   <link rel="icon" href="favicon.png" sizes="16x16" type="image/png">
+   <link rel="icon" href="favicon.png" sizes="16x16" type="image/png">           
    <script src="js/jquery-3.3.1.min.js"></script>
-   <script src="js/bootstrap.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>   
+   <script> 
+      $(function(){
+        $("#footer").load("enq_sub_footer.html"); 
+        $("#nav_bar").load("navbar.html"); 
+      });
+   </script> 
 </head>
 
 <body>
@@ -100,7 +106,7 @@
             <div class="col-md-4">
                <img class="margin_top_30 img-responsive center_img" src="imgs/icons/ancient-scroll.png" alt="#" />
                <h4 class="white_font  h4_top_margin">Step 7</h4>
-               <p class="white_font">Recieve Confirmation of Enrolment</p>
+               <p class="white_font">Receive Confirmation of Enrolment</p>
             </div>
             <div class="col-md-4">
                <img class="margin_top_30 img-responsive center_img" src="imgs/icons/passport.png" alt="#" />
@@ -110,7 +116,7 @@
             <div class="col-md-4">
                <img class="margin_top_30 img-responsive center_img" src="imgs/icons/airplane_white.png" alt="#" />
                <h4 class="white_font  h4_top_margin">Step 9</h4>
-               <p class="white_font">Complete your registration process after arrival to VPU campus</p>
+               <p class="white_font">Complete your registration process after arrival on campus</p>
             </div>
          </div>
       </div>
@@ -194,15 +200,6 @@
       </div>
    </div>
    <div id="footer"></div>   
-           
-   <script src="js/jquery-3.3.1.min.js"></script>
-   <script src="js/bootstrap.min.js"></script>   
-   <script> 
-      $(function(){
-        $("#footer").load("enq_sub_footer.html"); 
-        $("#nav_bar").load("navbar.html"); 
-      });
-   </script> 
 </body>
 
 </html>
